@@ -1,0 +1,98 @@
+/*Move this to SASS for better composability and relearn flexbox + CSS grid*/
+/*#130f40*/
+
+body, html {
+	height:100%;
+	width:100%;
+	margin:0px;
+	padding: 0px;
+}
+
+header {/*placeholder font*/
+	height:100%;
+	width: 100%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background-color:#11073B;
+	margin:0px;
+	padding:0px;
+}
+
+header div {
+	text-align:center;
+	margin-bottom:30px;
+}
+
+header div p {
+	font-family: Roboto;
+	font-size:1.15em;
+	letter-spacing:1.5px;
+	line-height:30px;
+	color:#f9ca24;
+	margin:5px auto;
+	max-width: 650px;
+}
+
+h1 {
+	font-weight:400;
+	font-family: IBM Plex Mono;
+	font-size: 4.7em;
+	letter-spacing:5px;
+	color: #f9ca24;
+	margin:0px;
+	padding:0px 0px 0px 20px;
+}
+
+article {
+	display:flex;
+	background-color:#EEC552;
+}
+
+article h2 {
+	font-family: IBM Plex Mono;
+	font-size: 3em;
+	font-weight:500;
+	color:#11073B;
+	padding: 30px 0px 0px 0px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	border-bottom: 3px solid #11073B;
+	max-width: 700px;
+}
+
+article p {
+	font-family: Roboto;
+	font-size: 1.15em;
+	font-weight:500;
+	color:#11073B;
+	padding: 0px 0px 0px 30px;
+	margin-bottom:10px;
+	max-width: 800px;
+	line-height: 1.58;
+}
+
+article span{
+	margin-left:25px;
+}
+
+article * {
+	margin:0px;
+	padding: 0px;
+}
+
+.triangleContainer{
+	display:flex;
+	align-items: flex-end;
+	flex-direction: column;
+	flex-grow:1;
+}
+
+.triangle {
+	width:0;
+	height:0;
+	border-top:110px solid transparent;
+	border-bottom:110px solid transparent;
+	border-right:110px solid #11073B;
+	border-left:110px solid transparent;
+}
